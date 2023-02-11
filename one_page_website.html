@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>We Love Corndogs!</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Graduate&family=Hind+Siliguri:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <a href="#home" class="link">Home</a>
+        <a href="#pics" class="link">Corn Dog Pics</a>
+        <a href="#contact" class="link">Co(r)n(dog)tact</a>
+      </ul>
+    </nav>
+
+    <!-- Top section -->
+    <section id="home">
+      <div id="home-content">
+        <h1 id="home-title">All About Corndogs!</h1>
+        <p id="home-desc">Love me some corndogs.</p>
+      </div>
+    </section>
+    <div id="hr-div"><hr /></div>
+
+    <!-- End Top section -->
+
+    <!-- IMAGE SECTION -->
+    <section id="gallery">
+      <h2>Pictures of Corndogs</h2>
+      <div id="pics">
+        <div class="container">
+          <img src="./corn-dogs.jpg" alt="Corn Dogs on a plate" />
+          <p class="caption">Some nice corndogs!</p>
+        </div>
+        <div class="container">
+          <img src="./mustard.jpg" alt="Corn dog with mustard" />
+          <p class="caption">You can put some mustard on it.</p>
+        </div>
+        <div class="container">
+          <img src="./corn-dog-bites.jpg" alt="Mini Corn Dogs on a plate" />
+          <p class="caption">Mini Corn Dogs?!</p>
+        </div>
+        <div class="container">
+          <img src="./mozz.jpg" alt="Fried mozzarella stick on a stick" />
+          <p class="caption">Wait, that's not a corndog!!</p>
+        </div>
+      </div>
+    </section>
+    <!-- END IMAGE SECTION -->
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <div id="form-div">
+        <h2>Talk to me about Corn Dogs</h2>
+
+        <form id="contact-form">
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" value="Corndog" /><br />
+          <label for="email">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value="corn@dog.com"
+          /><br />
+          <label for="subject">Subject:</label><br />
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            value="I love Corndogs"
+          /><br />
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message">
+I've got something to say about Corndogs!</textarea
+          >
+        </form>
+      </div>
+    </section>
+    <!-- END CONTACT SECTION -->
+    <!-- FOOTER -->
+    <footer>
+      <p>Copyright 2023 CornDogMan</p>
+      <p>Site built by CornDogMan</p>
+    </footer>
+  </body>
+</html>
