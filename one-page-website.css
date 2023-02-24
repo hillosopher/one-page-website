@@ -162,20 +162,23 @@ hr {
   object-fit: cover;
 }
 
-.container p {
-  text-align: center;
-  padding: 15px 0px;
-  font-family: var(--hind);
-  background-color: #ff5733;
-}
-
 .container:hover {
   color: var(--corn);
+}
+
+.container, .container:hover {
   transition: color 0.3s linear; /* vendorless fallback */
   -o-transition: color 0.3s linear; /* opera */
   -ms-transition: color 0.3s linear; /* IE 10 */
   -moz-transition: color 0.3s linear; /* Firefox */
   -webkit-transition: color 0.3s linear; /*safari and chrome */
+}
+
+.container p {
+  text-align: center;
+  padding: 15px 0px;
+  font-family: var(--hind);
+  background-color: #ff5733;
 }
 
 #contact {
